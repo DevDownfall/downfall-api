@@ -37,11 +37,7 @@ const morganMiddleware = morgan("combined", {
 });
 app.use(morganMiddleware);
 
-// Capture 404 erors
-app.use((req,res,next) => {
-    res.status(404).send("PAGE NOT FOUND");
-    logger.error(`400 || ${res.statusMessage} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-})
+
 // End of File Logging
 
 app.get('/', (req, res) => {
@@ -50,6 +46,12 @@ app.get('/', (req, res) => {
 });
 
 app.use('/v1', require('./v1/router'));
+
+// Capture 404 erors
+app.use((req,res,next) => {
+    res.status(404).send("PAGE NOT FOUND");
+    logger.error(`400 || ${res.statusMessage} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+})
 
 app.listen(3001, () => {
     console.log(`API Running on 3001`);

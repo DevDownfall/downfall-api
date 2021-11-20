@@ -1,1 +1,14 @@
 {"level":"error","message":"400 || Not Found - /fart - GET - ::1","timestamp":"2021-11-18T18:46:06.617Z"}
+{"level":"error","message":"400 || Not Found - /v1/email/confirmation - GET - ::1","timestamp":"2021-11-20T07:00:10.745Z"}
+{"level":"error","message":"400 || Not Found - /v1/email/confirmation - GET - ::1","timestamp":"2021-11-20T07:02:32.696Z"}
+{"level":"error","message":"400 || Not Found - /v1/email/confirmation/ - GET - ::1","timestamp":"2021-11-20T07:13:24.827Z"}
+{"level":"error","message":"400 || Not Found - /v1/email/confirmation/ - GET - ::1","timestamp":"2021-11-20T07:18:13.981Z"}
+{"level":"error","message":"400 || Not Found - /v1/email/confirmation/ - GET - ::1","timestamp":"2021-11-20T07:18:22.844Z"}
+{"level":"error","message":"400 || Not Found - /v1/email/confirmation/ - GET - ::1","timestamp":"2021-11-20T07:19:44.037Z"}
+{"level":"error","message":"400 || Not Found - /v1 - GET - ::1","timestamp":"2021-11-20T07:21:52.796Z"}
+{"level":"error","message":"400 || Not Found - /v1 - GET - ::1","timestamp":"2021-11-20T07:36:25.906Z"}
+{"level":"error","message":"400 || Not Found - /v1 - GET - ::1","timestamp":"2021-11-20T07:36:47.390Z"}
+{"level":"error","message":"400 || Not Found - /v1 - GET - ::1","timestamp":"2021-11-20T07:39:04.662Z"}
+{"level":"error","message":"400 || Not Found - /v1 - GET - ::1","timestamp":"2021-11-20T07:42:59.342Z"}
+{"level":"error","message":"400 || Not Found - /v1/ - GET - ::1","timestamp":"2021-11-20T07:43:08.374Z"}
+{"level":"error","message":"400 || Not Found - /v1/email - GET - ::1","timestamp":"2021-11-20T07:45:21.051Z"}

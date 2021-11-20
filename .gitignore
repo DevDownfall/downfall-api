@@ -2,3 +2,4 @@ dist/main.js
 node_modules/
 **/database
 src/utilities/database/connection.ts
+.env
