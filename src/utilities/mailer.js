@@ -1,9 +1,7 @@
-// // import 'path'
-// // const dotenv = require('dotenv').config({path: path.join(__dirname, '.env')});
-// // dotenv.load()
-// // return console.log(process.env)
+import 'path'
+require('dotenv').config({path: path.join(__dirname, '.env')});
 const sendGridMail = require('@sendgrid/mail')
-sendGridMail.setApiKey('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')
+sendGridMail.setApiKey(process.env.SENDGRID_API_KEY)
 
 export function getMessage(emailParams) {
   return {
