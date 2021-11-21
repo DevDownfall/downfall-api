@@ -16,3 +16,4 @@ error: 400 || Not Found - /v1 - GET - ::1
 error: 400 || Not Found - /v1/ - GET - ::1
 info: A root link has been accessed!
 error: 400 || Not Found - /v1/email - GET - ::1
+error: 400 || Not Found - /v1/auth/login - POST - ::1

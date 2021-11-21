@@ -1,5 +1,5 @@
 import 'path'
-require('dotenv').config({path: path.join(__dirname, '.env')});
+require('dotenv').config();
 const sendGridMail = require('@sendgrid/mail')
 sendGridMail.setApiKey(process.env.SENDGRID_API_KEY)
 

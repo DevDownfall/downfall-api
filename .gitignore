@@ -3,3 +3,4 @@ node_modules/
 **/database
 src/utilities/database/connection.ts
 .env
+config.js
